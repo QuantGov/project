@@ -1,0 +1,5 @@
+name: quantgov-dataset
+estimator: path/to/estimator
+target_corpus: path/to/target/corpus
+prediction_type: relevance
+probability: False
