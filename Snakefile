@@ -56,7 +56,7 @@ rule estimate:
     input: 
         estimator('data/vectorizer.pickle'),
         estimator('data/model.pickle'),
-        target_corpus('driver.py')
+        target_corpus('timestamp')
     params:
         '--probability' if config['probability'] else ''
     output:
